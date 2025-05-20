@@ -1,8 +1,8 @@
-# 🌐 Network Monitoring Log Analyzer
+# Network Monitoring Log Analyzer
 
 This project is a lightweight uptime monitoring tool that checks whether a website is accessible and logs the results into an SQLite database. It was built specifically to monitor the status of [my personal portfolio](https://lorena.demaj.dev) and can be adapted for other URLs.
 
-## ✅ Project Purpose
+## Project Purpose
 
  I created this project to demonstrate:
 - Bash scripting skills
@@ -11,27 +11,27 @@ This project is a lightweight uptime monitoring tool that checks whether a websi
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Bash**: To handle logic and uptime checks
 - **curl**: To verify HTTP response codes
 - **SQLite**: To log and analyze monitoring results using SQL
 
 ---
 
-## 📁 Project Structure
-noc-network-monitor/
+## Project Structure
+network-log-analyzer/
 ├── monitor.sh # Main script to check site status and log to DB
 ├── init.sql # Creates the monitoring_log table
 ├── monitor.db # SQLite database (auto-generated)
 └── queries.sql # Useful SQL queries for analysis
 
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/noc-network-monitor.git
-cd noc-network-monitor
+git clone https://github.com/ldemaj/network-log-analyzer.git
+cd network-log-analyzer
 ```
 
 ### 2. Initialize the Database
